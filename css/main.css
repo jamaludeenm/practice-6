@@ -159,3 +159,48 @@
 .rewardbox h2{
    color: rgb(26, 114, 230);
 }
+.service{
+   padding-top: 50px;
+   padding-bottom: 50px;
+}.service-list{
+   display: flex;
+   flex-wrap: wrap;
+}
+.service-list .service-box
+{
+   width: 33.33%;
+     
+}
+.allign-ser{
+   text-align: center;
+   padding-bottom: 30px;
+   font-size: 30px;
+}
+.service-info{
+   margin: 15px;
+}
+.service-icon{
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 60px;
+   height: 60px;
+   border-radius: 100%;
+   background-color: #fff;
+   box-shadow: 0 0 20px rgb(182, 146, 146);
+  text-align: center;
+   margin: 0 auto 25px;
+}
+
+.service-icon{
+   font-size: 30px;
+   color: rgb(24, 47, 68);
+}
+.service-text h4{
+   text-align: center;
+  
+}
+.service-text{
+   text-align: center;
+}
