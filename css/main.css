@@ -1,106 +1,127 @@
 .container {
-    width: auto;
-    height: auto;
-    margin: 10px;
-    margin-left: 60px;
-    margin-right: 60px;
-    /* border: solid 1px black; */
+   width: auto;
+   height: auto;
+   margin: 10px;
+   margin-left: 60px;
+   margin-right: 60px;
+   /* border: solid 1px black; */
 }
 
-.quick-flex{
-    display: flex;
-    justify-content: space-between;
+.quick-flex {
+   display: flex;
+   justify-content: space-between;
 }
-.quick-flex i:hover{
-    color: brown;
-    transition: 1s;
+
+.quick-flex i:hover {
+   color: brown;
+   transition: 1s;
 }
-.quickcontact{
-    border-top: solid 1px rgb(68, 68, 117);
-    border-bottom:solid 1px rgb(68, 68, 117);
+
+.quickcontact {
+   border-top: solid 1px rgb(68, 68, 117);
+   border-bottom: solid 1px rgb(68, 68, 117);
 }
-.social-m,ul,li{
-    display: flex;
-    padding-inline: 20px;
+
+.social-m,
+ul,
+li {
+   display: flex;
+   padding-inline: 20px;
 
 }
-.con i{
-    text-decoration: none;
+
+.con i {
+   text-decoration: none;
 
 }
 
 .social-m a {
-    text-decoration: none;
+   text-decoration: none;
 }
-.header{
-    margin: bottom 0%;
+
+.header {
+   margin: bottom 0%;
 }
- .logo h3{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
-    /* margin-top:10px; */
-    font-size: 20px;
+
+.logo h3 {
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 100;
+   /* margin-top:10px; */
+   font-size: 20px;
 
 
- }
- .flex-head{
-    display: flex;
-    justify-content: space-between;
+}
 
- }
- .navi ul li a{
-    font-family: "Open Sans", sans-serif;
-    text-decoration: none;
-    
- }
- .banner{
-    background-image:url(../images/slide-1.jpg);
-    height: 660px;
-    background-size: cover;
+.flex-head {
+   display: flex;
+   justify-content: space-between;
 
- }
- .text-co h1{
-    padding-top: 300px;
-    font-size: 50px;
-    color: rgb(48, 43, 43);
- }
- .aboutflex{
-    display: flex;
-    margin: 20px;
-    box-shadow: 0 0 10px rgb(70, 62, 57);
- }
- .aboutimg{
-    background-image: url(../images/about\ img.jpg);
-    background-size: cover;
-    width: 50%;
-    height:480px;
-    margin: 20px;
- }
- .abouttext{
-    width: 50%;
-    margin-top: 10px;
- }
- .upper-tex h3{
-    text-align: center;
-    font-size: 30px;
- }
- .upper-tex{
-    margin-bottom: 60px;
- }
- h1 i{
-    color:rgb(39, 157, 204);  
-    border-radius: 20px;
- }
- .text-1 :hover{
+}
+
+.navi ul li a {
+   font-family: "Open Sans", sans-serif;
+   text-decoration: none;
+
+}
+
+.banner {
+   background-image: url(../images/slide-1.jpg);
+   height: 660px;
+   background-size: cover;
+
+}
+
+.text-co h1 {
+   padding-top: 300px;
+   font-size: 50px;
+   color: rgb(48, 43, 43);
+}
+
+.aboutflex {
+   display: flex;
+   margin: 20px;
+   box-shadow: 0 0 10px rgb(70, 62, 57);
+}
+
+.aboutimg {
+   background-image: url(../images/about\ img.jpg);
+   background-size: cover;
+   width: 50%;
+   height: 480px;
+   margin: 20px;
+}
+
+.abouttext {
+   width: 50%;
+   margin-top: 10px;
+}
+
+.upper-tex h3 {
+   text-align: center;
+   font-size: 30px;
+}
+
+.upper-tex {
+   margin-bottom: 60px;
+}
+
+h1 i {
+   color: rgb(39, 157, 204);
+   border-radius: 20px;
+}
+
+.text-1 :hover {
    color: rgb(52, 52, 180);
    transition: 0.5s;
 
- }
-.text-2 :hover{
+}
+
+.text-2 :hover {
    color: rgb(52, 52, 180);
    transition: 0.5s;
 }
-.flex-rb{
+
+.flex-rb {
    display: flex;
    flex-wrap: wrap;
    width: 100%;
@@ -109,43 +130,52 @@
    padding-bottom: 20px;
 
 }
-.box{
-  width: 30%;
-  padding: 10px 15px;
-  border: solid 1px rgb(64, 98, 102);
-  border-top: 0px;
+
+.box {
+   width: 30%;
+   padding: 10px 15px;
+   border: solid 1px rgb(64, 98, 102);
+   border-top: 0px;
 
 }
-.box:nth-child(1){
+
+.box:nth-child(1) {
    border-left: 0px;
    border-right: 0px;
 }
-.box:nth-child(3){
+
+.box:nth-child(3) {
    border-left: 0px;
    border-right: 0px;
 }
-.box:nth-child(4){
+
+.box:nth-child(4) {
    border-left: 0px;
    border-right: 0px;
    border-bottom: 0px;
 }
-.box:nth-child(6){
+
+.box:nth-child(6) {
    border-left: 0px;
    border-right: 0px;
    border-bottom: 0px;
 }
-.box:nth-child(5){
+
+.box:nth-child(5) {
    border-bottom: 0px;
 }
-.box h3{
+
+.box h3 {
    color: rgb(40, 230, 230);
 }
-.flex-rew{
+
+.flex-rew {
    display: flex;
    padding-top: 30px;
    padding-bottom: 30px;
 }
-.rewbox{
+
+.rewbox {
    width: 25%;
    text-align: center;
    box-shadow: 0 0 15px rgb(165, 165, 165);
@@ -153,34 +183,42 @@
    margin-right: 30px;
    background-color: white
 }
-.rewardbox{
+
+.rewardbox {
    background-color: rgb(246, 248, 248);
 }
-.rewardbox h2{
+
+.rewardbox h2 {
    color: rgb(26, 114, 230);
 }
-.service{
+
+.service {
    padding-top: 50px;
    padding-bottom: 50px;
-}.service-list{
+}
+
+.service-list {
    display: flex;
    flex-wrap: wrap;
 }
-.service-list .service-box
-{
+
+.service-list .service-box {
    width: 33.33%;
-     
+
 }
-.allign-ser{
+
+.allign-ser {
    text-align: center;
    padding-bottom: 30px;
    font-size: 30px;
 }
-.service-info{
+
+.service-info {
    margin: 15px;
 }
-.service-icon{
-   
+
+.service-icon {
+
    display: flex;
    justify-content: center;
    align-items: center;
@@ -189,18 +227,210 @@
    border-radius: 100%;
    background-color: #fff;
    box-shadow: 0 0 20px rgb(182, 146, 146);
-  text-align: center;
+   text-align: center;
    margin: 0 auto 25px;
 }
 
-.service-icon{
+.service-icon {
    font-size: 30px;
    color: rgb(24, 47, 68);
 }
-.service-text h4{
+
+.service-text h4 {
    text-align: center;
-  
+
 }
-.service-text{
+
+.service-text {
    text-align: center;
+}
+
+.ourport {
+   background-color: #f5f9fc;
+   padding: 30px 0px;
+}
+
+.portheader {
+   text-align: center;
+   padding-bottom: 10px;
+   padding-left: 70px;
+   padding-right: 70px;
+
+}
+
+.portheader h2 {
+   font-size: 32px;
+   font-weight: 200;
+   font-family: "Raleway", sans-seri;
+   margin-bottom: 20px;
+   color: #5c768d;
+}
+
+.but {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.but button {
+   margin-right: 15px;
+   margin-bottom: 25px;
+   padding: 10px 15px;
+   background-color: #fff;
+   border: 0;
+   border-radius: 4px;
+}
+
+.but button:hover {
+   background-color: rgb(13, 139, 241);
+   transition: all 0.2s ease;
+}
+
+.but button:hover a {
+   color: #fff;
+}
+
+button a {
+   text-decoration: none;
+   color: black;
+}
+
+.portlist {
+   display: flex;
+   flex-wrap: wrap;
+   margin-right: 25px;
+   margin-left: 60px;
+}
+
+.portbox {
+   width: 30%;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-bottom: 20px;
+}
+
+.content {
+   position: relative;
+   overflow: hidden;
+}
+
+.content img {
+   display: block;
+   width: 100%;
+   height: auto;
+   transition: all 0.5s ease;
+}
+
+.content:hover img {
+   transform: scale(1.1);
+}
+
+.porttext {
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgba(0, 0, 0, 0.473);
+   opacity: 0;
+   transition: all 0.5s ease;
+}
+
+.content:hover .porttext {
+   opacity: 1;
+   /* transition: all 0.5s ease; */
+}
+
+.portinfo {
+   transform: translateY(-20px);
+   opacity: 0;
+   transition: all 0.5s ease;
+}
+
+.content:hover .portinfo {
+   transform: translate(0px);
+   opacity: 1;
+}
+
+.portinfo h5 {
+   color: #fff;
+   font-size: 20px;
+   text-align: center;
+   margin-bottom: 10px;
+   margin-top: 10px;
+
+}
+
+.portinfo h6 {
+   color: #fff;
+   font-size: 20px;
+   text-align: center;
+   margin-bottom: 2px;
+   margin-bottom: 10px;
+   margin-top: 10px;
+}
+
+.portico {
+   display: flex;
+   justify-content: space-around;
+}
+
+.portico a {
+   display: block;
+   width: 25px;
+   height: 25px;
+   background-color: #fff;
+   color: rgba(10, 173, 238, 0.966);
+   border-radius: 100%;
+   text-align: center;
+   text-decoration: none;
+   line-height: 25px;
+   margin: 0 5px;
+   font-size: 11px;
+   font-weight: 100;
+}
+
+.portico :hover {
+   background-color: rgba(10, 173, 238, 0.966);
+   ;
+   transition: all 0.2s ease;
+   color: white;
+}
+
+.teamlist {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.potobox {
+   width: 25%;
+   padding: 0 15px;
+}
+
+.potocontent .potoimg {
+   overflow: hidden;
+   border-radius: 6px;
+}
+.potocontent{
+   position: relative;
+}
+.potocontent .potoimg img{
+   width: 100%;
+   height: auto;
+   display: block;
+}
+.pototext{
+   background-color:  rgba(92, 118, 141, 0.61);
+   position: absolute;
+   bottom:0;
+   left: 0;
+   width: 90%;
+   left: 5%;
+   right: 5%;
+   bottom: -20%;
+   text-align: center;
+   width: 100%;
 }
