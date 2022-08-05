@@ -399,14 +399,29 @@ button a {
    transition: all 0.2s ease;
    color: white;
 }
-
+.ourteam{
+   margin-bottom: 100px;
+}
+.teamhead{
+   text-align: center;
+   margin-top: 50px;
+   margin-bottom: 20px;
+}
+.teamhead h3{
+   font-size: 35px;
+   font-weight: 200;
+   font-family: "Raleway", sans-seri;
+   margin-bottom: 20px;
+   color: #5c768d;
+}
 .teamlist {
    display: flex;
    flex-wrap: wrap;
+   padding-left: 80px;
 }
 
 .potobox {
-   width: 25%;
+   width: 20%;
    padding: 0 15px;
 }
 
@@ -422,15 +437,88 @@ button a {
    height: auto;
    display: block;
 }
+.potocontent .potoimg img:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease;
+
+}
 .pototext{
    background-color:  rgba(92, 118, 141, 0.61);
    position: absolute;
-   bottom:0;
-   left: 0;
+   top:70%;
+   left:5%;
    width: 90%;
-   left: 5%;
    right: 5%;
-   bottom: -20%;
+   bottom: -15%;
    text-align: center;
-   width: 100%;
+   border-radius: 5px;
+   color: #f5f9fc;
 }
+.pototext h5{
+   font-size: 15px;
+   font-weight: 100;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.pototext p{
+   padding:0;
+   margin: 10px;
+   font-size: 12px;
+}
+.hrline{
+   border-bottom: solid 1px white;
+   width: 50px;
+   margin-left: 40%;
+   padding: 0%;
+}
+.potoicon a{
+   color: white;
+   padding-left: 3px;
+}
+.faqhead {
+   display: flex;
+   justify-content: center;
+}
+.faq{
+   background-color:  #e9f5ff;
+   padding-bottom: 30px;
+}
+.faqhead h3{
+    padding-top: 20px;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #5c768d;
+    font-family: "Raleway", sans-serif;
+}
+.faqlist{
+   display: flex;
+   flex-wrap: wrap;
+   margin-left: 70px;
+   margin-right: 30px;
+   padding-right: 4px;
+}
+.faqlist .list{
+   width: 47%;
+   margin-right: 30px;
+}
+.faqlist .list p{
+   font-size: 1rem;
+   font-family: "Open Sans", sans-serif;
+   color:  #444;
+}
+.faqlist .list h4{
+   font-family: "Raleway";
+   font-size: 20px;
+   font-weight: 500;
+}
+
+   
+   
+   
+
+}
+
+
+
