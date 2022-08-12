@@ -1,55 +1,68 @@
 .container {
-   width: auto;
+   width:auto;
    height: auto;
-   margin: 10px;
-   margin-left: 60px;
-   margin-right: 60px;
-   /* border: solid 1px black; */
-}
+   margin-left: 200px;
+   margin-right: 200px;
 
-.quick-flex {
+}
+.quickcontact{
+   border-bottom: 1px solid #eee;
+}
+.flex-contact{
    display: flex;
    justify-content: space-between;
+   margin:10px 0 10px 0 ;
 }
-
-.quick-flex i:hover {
-   color: brown;
-   transition: 1s;
-}
-
-.quickcontact {
-   border-top: solid 1px rgb(68, 68, 117);
-   border-bottom: solid 1px rgb(68, 68, 117);
-}
-
-.social-m,
-ul,
-li {
+.q-mc{
    display: flex;
-   padding-inline: 20px;
-
 }
-
-.con i {
+.icon-con i{
+   color: #428bca;
+   padding: 0 8px 0 8px;
+   font-size: 13px;
+}
+.q-content a{
+   font-size: 13px;
+   color: #444;
    text-decoration: none;
-
+   font-family:"Open Sans", sans-serif;
+   font-weight: 100;  
+}
+.q-content:hover a{
+   color: #428bca;
+}
+.social-content ul li{
+   font-size: 13px;
+   display: inline-block;
+   padding: 0 10px 0 10px;
+   
+}
+.social-content ul li a{
+   color: #5c768d;
+}
+.social-content ul li a :hover{
+   color: #428bca;
 }
 
-.social-m a {
-   text-decoration: none;
-}
 
 .header {
-   margin: bottom 0%;
+
 }
 
 .logo h3 {
-   font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0;
+    line-height: 1;
+    letter-spacing: 3px;
+    
+  
+}
+.logo h3 a {
+   text-decoration: none;
+   color: #1c5c93;
+   font-family: "Raleway", sans-serif;
+   font-size: 28px;
+   letter-spacing: 3px;
    font-weight: 100;
-   
-   font-size: 20px;
-
-
 }
 
 .flex-head {
@@ -57,17 +70,28 @@ li {
    justify-content: space-between;
 
 }
+.navi ul li{
+   display: inline-block;
+   justify-content: space-between;
+    padding: 10px 0 10px 30px;
 
+  
+  
+}
 .navi ul li a {
+   font-size: 12px;
+   color: #5c768d;
    font-family: "Open Sans", sans-serif;
    text-decoration: none;
+   font-weight: 100;
+   letter-spacing: 1px;
 
 }
 .flex-banner{
    position: relative;
    display: flex;
    align-items: center;
-   height: 500px;
+   height: 600px;
    background-image: url(../images/slide-1.jpg);
    width: 100%;
    background-size: cover;
@@ -90,12 +114,13 @@ li {
 .banner-details h1{
    display: flex;   
    color: #fff;
-   font-size: 40px;
-   font-family: "Open Sans", sans-serif;
+    margin-bottom: 30px;
+    font-size: 48px;
+    font-weight: 900;
 }
+
 .banner-details p{
    color: #fff;
-   padding-top: 30px;
    line-height: 25px;
    font-size: 17px;
    font-family: "Open Sans", sans-serif;
@@ -116,62 +141,120 @@ li {
 
 .aboutflex {
    display: flex;
-   margin: 20px;
-   box-shadow: 0 0 10px rgb(70, 62, 57);
+   margin: 60px 20px 30px 20px;
+   box-shadow: 0 0 10px rgb(165, 163, 161);
 }
 
 .aboutimg {
    background-image: url(../images/about\ img.jpg);
    background-size: cover;
    width: 50%;
-   height: 480px;
+   height: 550px;
    margin: 20px;
 }
 
 .abouttext {
    width: 50%;
-   margin-top: 10px;
+   margin: 70px 0 70px 0;
+   padding: 40px;
 }
 
 .upper-tex h3 {
    text-align: center;
    font-size: 30px;
+   margin-bottom: 10px;
+   color:#5c768d;
+   font-family:"Raleway", sans-serif;
 }
-
+.upper-tex p{
+   font-family:"Open Sans", sans-serif;;
+   font-size: 15px;
+   font-weight:100;
+   text-align: left;
+    font-style: italic;
+    color: #666;
+    
+}
 .upper-tex {
    margin-bottom: 60px;
 }
-
+.text-1{
+   margin-bottom: 30px;
+}
+.text-1 a{
+   padding: 0;
+}
+.text-2{
+   padding-top: 30px;
+}
 h1 i {
    color: rgb(39, 157, 204);
-   border-radius: 20px;
+   /* border-radius: 20px; */
+   float: left;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: #f1f7fb;
+   border-radius: 6px;
+   transition: 0.5s;
+   margin-right: 10px;
+   font-size: 30px;
+   text-align: center;
+   padding: 20px;
+
 }
+
 
 .text-1 :hover {
-   color: rgb(52, 52, 180);
-   transition: 0.5s;
-
+   color: rgb(255, 255, 255);
+   transition: 0.2s;
+   background-color: #428bca;
 }
-
+.text-1 h3{
+   font-size: 15px;
+   font-family: "Raleway", sans-serif;
+   font-weight: 700;
+   text-transform: uppercase;
+   margin-bottom: 5px;
+   
+}
+.text-2 h3{
+   font-size: 15px;
+   font-family: "Raleway", sans-serif;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+.text-1 p{
+      font-size: 13px;
+      font-family:"Open Sans", sans-serif;
+      color: #444;
+      margin: 20px 0 10px 0;
+}
+.text-2 p{
+   font-size: 13px;
+   font-family:"Open Sans", sans-serif;
+   color: #444;
+   margin: 20px 0 10px 0;
+}
 .text-2 :hover {
-   color: rgb(52, 52, 180);
-   transition: 0.5s;
+   color: rgb(255, 255, 255);
+   transition: 0.2s;
+   background-color: #428bca;
 }
 
 .flex-rb {
    display: flex;
    flex-wrap: wrap;
    width: 100%;
-   margin-left: 30px;
    padding-top: 20px;
    padding-bottom: 20px;
 
 }
-
 .box {
-   width: 30%;
+   width: 33.33%;
+   box-sizing: border-box;
    padding: 10px 15px;
-   border: solid 1px rgb(64, 98, 102);
+   border: solid 0.5px rgba(74, 90, 92, 0.288);
    border-top: 0px;
 
 }
@@ -201,15 +284,35 @@ h1 i {
 .box:nth-child(5) {
    border-bottom: 0px;
 }
-
+.box{
+   padding: 20px;
+}
 .box h3 {
-   color: rgb(40, 230, 230);
+   display: block;
+    font-size: 24px;
+    font-weight: 400;
+    color: #9eccf4;
+}
+.box h4{
+   font-size: 28px;
+   font-weight: 400;
+   padding: 0;
+   margin: 20px 0;
+   font-family: "Raleway", sans-serif;
+}
+.box p{
+    color: #aaaaaa;
+    font-size: 13px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
 }
 
 .flex-rew {
    display: flex;
-   padding-top: 30px;
-   padding-bottom: 30px;
+   padding-top: 50px;
+   padding-bottom: 50px;
 }
 
 .rewbox {
@@ -218,15 +321,25 @@ h1 i {
    box-shadow: 0 0 15px rgb(165, 165, 165);
    margin-left: 30px;
    margin-right: 30px;
-   background-color: white
+   background-color: white;
+   padding: 30px;
 }
 
 .rewardbox {
    background-color: rgb(246, 248, 248);
 }
 
-.rewardbox h2 {
-   color: rgb(26, 114, 230);
+.rewbox h2 {
+   font-size: 35px;
+   font-family:"Open Sans", sans-serif;
+    display: block;
+    font-weight: 700;
+    color: #1c5b93ea;
+}
+.rewbox p{
+   color: rgb(80, 78, 78);
+   font-size: 15px;
+
 }
 
 .service {
@@ -268,14 +381,18 @@ h1 i {
    margin: 0 auto 25px;
 }
 
-.service-icon {
+.service-icon i{
    font-size: 30px;
-   color: rgb(24, 47, 68);
+   color:#428bca;;
 }
 
 .service-text h4 {
    text-align: center;
-
+   font-weight: 600;
+   font-size: 15px;
+   font-family: "Raleway", sans-serif;
+   color: #444;
+   margin-bottom: 10px;
 }
 
 .service-text {
@@ -301,6 +418,12 @@ h1 i {
    font-family: "Raleway", sans-seri;
    margin-bottom: 20px;
    color: #5c768d;
+}
+.portheader p{
+   font-size: 14px;
+   font-family: "Open Sans", sans-serif;
+   color: #444;
+   margin-bottom: 15px;
 }
 
 .but {
@@ -521,34 +644,39 @@ button a {
    padding-bottom: 30px;
 }
 .faqhead h3{
-    padding-top: 20px;
+    padding-top: 40px;
     font-size: 32px;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     padding-bottom: 0;
     color: #5c768d;
     font-family: "Raleway", sans-serif;
+    
 }
 .faqlist{
    display: flex;
    flex-wrap: wrap;
-   margin-left: 70px;
-   margin-right: 30px;
-   padding-right: 4px;
+  
 }
 .faqlist .list{
-   width: 47%;
+   width: 46%;
    margin-right: 30px;
+   box-sizing: border-box;
+   margin-bottom: 30px;
+
 }
 .faqlist .list p{
    font-size: 1rem;
    font-family: "Open Sans", sans-serif;
    color:  #444;
+   font-size: 15px;
 }
 .faqlist .list h4{
    font-family: "Raleway";
-   font-size: 20px;
-   font-weight: 500;
+   font-size: 18px;
+   font-weight: 200;
+   margin-bottom: 10px;
+
 }
 .con-head{
    display: flex;
@@ -558,6 +686,7 @@ button a {
    margin-bottom: 20px;
    padding-bottom: 0;
    color: #5c768d;
+   padding-top: 40px;
 }
 .conlist{
    display: flex;
@@ -672,14 +801,17 @@ button a {
    color: white;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    font-size: 20px;
+   margin:15px 0 15px 0;
 }
 .footer1 p{
    color: white;
    font-size: 15px;
+   margin-bottom: 10px;
 }
 .footicon{
    display: flex;
    color: white;
+   margin: 10px;
 }
 .fico{
    border-radius: 100%;
@@ -740,7 +872,9 @@ button a {
    
 }
 .legal{
-   background-color:#587187 ;
+   background-color:#587187;
+    /* margin-top: -10px; */
+   
 }
 .legallist{
    text-align: center;
